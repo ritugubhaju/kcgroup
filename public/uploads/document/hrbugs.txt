@@ -1,0 +1,22 @@
+Issues
+
+Office setup ma khali add bhairacha(no validation).
+quick Employee search ma office jun select garda pani eutai employee list aairacha.(check after first search)
+promotion module verifiation ma verify not working.(same with employee transfer).(same with rawana).(same with punishment).(same with resignation) showing empty success.
+Employee Deputation ma employee select bhairachaina aani without employee select submit bhairacha.
+Setup Appraisals ma add or edit appraisals not working.
+Setup Awards empty
+Employee Appraisals not working shows blank success.
+Retirement ma no retirement type (where to add one).
+employee seach menu ma search garera select garepachi Desktop hang.
+In EmpDeptCostAssign menu title is given employee appointment and after submission verification number is given but not in verification.
+Employee Confirmation ma empty submit bhairacha.
+EmployeeSearchs and Employee Search repeated under PIS menu.
+Employee Overtime setting empty
+
+
+
+
+
+
+Remarks katai english katai nepali wth.

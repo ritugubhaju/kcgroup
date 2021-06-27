@@ -1,0 +1,71 @@
+**git command**
+git add .
+git commit -m "Update note"
+git push
+
+***git branch switch***
+git checkout -b prajwol
+
+*** steps to setup new project from github ***
+***git clone***
+git clone github_link
+
+***To install composer***
+composer install --ignore-platform-reqs
+
+*** Composer Update ***
+composer update
+
+***To generate key***
+php artisan key:generate
+
+*** Env Setup ***
+cp .env.example .env
+
+*** Migration ***
+php artisan migrate
+
+***end  of setup project ***
+
+***pull***
+git pull origin rohit
+
+
+***database refresh table***
+php artisan migrate:refresh --path=database/selected
+
+***Export***
+php artisan make:export SalesExport
+php artisan make:export PurchaseExport
+
+***Seed***
+php artisan migrate:fresh --seed
+
+***make request ***
+php artisan make:request UserRequest
+
+***make Seeder***
+php artisan make:seed PermissionSeeder
+
+*** try function ***
+try{
+            DB::beginTransaction();       
+
+        }
+        catch(Exception $e){
+            toastr()->error($e);
+            DB::rollback();
+            return back();
+        }
+
+        DB::commit();
+
+*** Cache Clear ***
+php artisan config:cache
+
+*** Install Auth ***
+composer require laravel/jetstream
+
+
+*** Auth Api ***
+php artisan jetstream:install livewire
